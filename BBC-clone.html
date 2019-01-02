@@ -41,7 +41,6 @@
                 width: 30 px;
                 margin: 8px 7px;
                 float: left;
-
             }
             
             #signin-text {              
@@ -205,6 +204,7 @@
             
             #main-article {
                 width: 600px;
+                float: left;
             }
             #technology-container {
                 height: 50px;
@@ -294,14 +294,57 @@
                 float: left
             }
             
-            #advertisement container {
+            #advertisement-container {
                 float: left;
-                width: 380px;
-                border-left: 1px solid #EDEDED;
-                height: 100%
+                width: 400px;
             }
             
-
+            #advertisement {
+                margin: 70px 140px 20px;
+                font-size: 11px;
+                color: #5a5a5a;
+                font-weight: bold;
+            }
+            
+            #watch-listen {
+                border-left: 1px solid grey;
+                margin-left: 10px;
+                padding-left: 20px;
+                height: 270px;
+            }
+            
+            #watch-listen-text {
+                font-size: 22px;
+                color: #5a5a5a;
+            }
+            
+            .video-container {
+                margin-top: 10px;
+                padding-right: 5px;
+ 
+            }
+            
+            .video {
+                width: 55%;
+            }
+            
+            .video-title {
+                float: left;
+            }
+            
+            .caption-text-container {
+                float: left;
+                width: 160px;
+                position: relative;
+                right: 80px;
+                margin-bottom: 15px;
+            }
+            
+            .caption-text {
+                font-weight: bold;
+                font-size: 90%;
+            }
+            
             
         </style>
         
@@ -488,15 +531,45 @@
                 </div>  
             </div>
             
-            <div class="clear"></div>
-            
-            <div id="advertisement container">
+            <div id="advertisement-container">
                 
-
-            
-            
-            
-            
+                <div id="advertisement">
+                    ADVERTISEMENT
+                </div>
+                
+                <div id="watch-listen">
+                    <span id="watch-listen-text">Watch/Listen</span>
+                
+                    <div class="video-container">
+                        <a class="video-title" href=""><img class="video" src="Video-1.png"></a>
+                        
+                        <div class="caption-text-container">
+                            <div class="caption-text">'You can't be what you can't see'</div>
+                            <span><p class="little-words"><img id="clock" src="clock.png">2 January 2019</p><a id="little-technology" href="https://www.bbc.com/news/technology">Technology</a></span>
+                        </div>
+                        
+                        <a class="video-title" href=""><img class="video" src="Video-2.png"></a>
+                        
+                        <div class="caption-text-container">
+                            <div class="caption-text">How can social media ffect mental health?</div>
+                            <span><p class="little-words"><img id="clock" src="clock.png">2 January 2019</p><a id="little-technology" href="https://www.bbc.com/news/technology">Wales</a></span>
+                        </div>
+                        
+                        <a class="video-title" href=""><img class="video" src="Video-3.png"></a>
+                        
+                        <div class="caption-text-container">
+                            <div class="caption-text">Siberia's Bitcoin Babushkas</div>
+                            <span><p class="little-words"><img id="clock" src="clock.png">2 January 2019</p><a id="little-technology" href="https://www.bbc.com/news/technology">Europe</a></span>
+                        </div>
+                        
+                        
+                    
+                    </div>
+                
+                
+                
+                
+                </div>
             
             
             </div>
