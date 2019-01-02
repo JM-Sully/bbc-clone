@@ -32,15 +32,16 @@
             }
             
             .topbar-section {         
-                float: left;
                 border-left: 1px solid #CCCCCC;
                 height: 100%;     
+                float: left;
             }
             
             #signin-image {               
                 width: 30 px;
                 margin: 8px 7px;
                 float: left;
+
             }
             
             #signin-text {              
@@ -48,8 +49,8 @@
                 font-size: 75%;
                 position: relative;
                 top: 14px;
-                padding-right: 80px;
-                float: left;               
+                padding-right: 80px; 
+                float: left;
             }
             
             .topbar-menu {              
@@ -57,7 +58,7 @@
                 font-size: 75%;
                 padding: 13px 15px 7px 15px;
                 height: 20px;
-                float: left; 
+                float: left;
             }
             
             #down-arrow {
@@ -197,10 +198,16 @@
                 background-color: black;
             }
             
-            #technology-container {
-                height: 50px;
+            #main-page {
                 width: 1000px;
                 margin: 0 auto;
+            }
+            
+            #main-article {
+                width: 600px;
+            }
+            #technology-container {
+                height: 50px;
             }
             
             #technology-title {
@@ -213,19 +220,17 @@
             }
             
             .tech-section-container {
-                width: 1000px;
                 height: 40px;
                 background-color: white;
-                margin: 0 auto;
             }
             
-            #pedo-link {
+            h1 a {
                 text-decoration: none;
                 color: dimgrey;
                 font-size: 31px;
             }
             
-            #pedo-link:hover {
+            h1 a:hover {
                 color: steelblue;
                 cursor: pointer; 
             }
@@ -243,7 +248,7 @@
             }
             
             .little-words {
-                color: grey;
+                color: #5a5a5a;
                 font-size: 12px; 
                 padding: 10px 6px 0px;
                 
@@ -257,22 +262,26 @@
                 padding-left: 6px;
             }
             
+            #aricle-hr {              
+                width: 33px;
+                border-top: 1px solid #BB1919;
+                margin-top: 7px;
+            }
+            
             p, a {
                 display: inline-block;
             }
+            
             #clock {
                 width: 11px;
                 padding-right: 4px;
             }
             
-            .musk {
-                font-size: 13px;  
-            }
-            
             .musk-links {
+                font-size: 13px;  
                 text-decoration: none;
-                color: grey;
-                padding-top: 8px;
+                color: #5a5a5a;
+                padding-top: 7px;
             }
             
             .musk-links:hover {
@@ -282,10 +291,14 @@
             #muskpng {
                 width: 360px;
                 padding: 10px;
+                float: left
             }
             
-            #muskpng-container {
+            #advertisement container {
                 float: left;
+                width: 380px;
+                border-left: 1px solid #EDEDED;
+                height: 100%
             }
             
 
@@ -422,59 +435,72 @@
         
         <div class="clear"></div>
         
-        <div id="technology-container">
-        
-            <div id="technology-title">
-                Technology
-            </div>
-        
-        </div>
-
-        <div class="clear"></div>
-        
-        <div class="tech-section-container">
-
-                <h1> <a id="pedo-link" href="https://www.bbc.com/news/technology-46693736">Musk tries to dismiss'pedo' libel claim</a></h1> 
-
-                <div class="section1-text-container">
-
-                    <div id="section1-text1">
-
-                        <p>Mr Musk's insults to cave rescuer were a "schoolyard spat" says Tesla chief's lawyers.</p>
-
-                    </div>
-                    
-                    <div>
-                        <span><p class="little-words"><img id="clock" src="clock.png">9 hours ago</p><a id="little-technology" href="https://www.bbc.com/news/technology">Technology</a></span>
- 
-                    
-                    </div>
-
-                    <div class="musk">
-
-                        <p class="musk-links"><a class="musk-links" href="https://www.bbc.com/news/technology-46507964">Elon Musk has 'no respect' for US regulator</a></p>
-                        
-                        <p class="musk-links"><a class="musk-links" href="https://www.bbc.com/news/world-asia-44870303">Musk apology to diver for Twitter attack</a></p>
-                        
-                        <p class="musk-links"><a class="musk-links" href="https://www.bbc.com/news/world-us-canada-45418245">New Elon Musk rant at Thai cave resuer</a></p>
-                        
-
-                    </div>  
-
-                    <br>
-                    <hr width="590">
-
-                </div> 
+        <div id="main-page">
             
-                <div id=muskpng-container>
-                        
-                    <a href="https://www.bbc.com/news/technology-46693736"><img id=muskpng src="elon.png"></a>
+            <div id="main-article">
+        
+                <div id="technology-container">
+
+                    <div id="technology-title">
+                        Technology
+                    </div>
 
                 </div>
-        
-        </div>  
-        
-        
+
+                <div class="clear"></div>
+
+                <div class="tech-section-container">
+
+                    <h1> <a href="https://www.bbc.com/news/technology-46693736">Musk tries to dismiss'pedo' libel claim</a></h1> 
+
+                    <div class="section1-text-container">
+
+                        <div id="section1-text1">
+
+                            <p>Mr Musk's insults to cave rescuer were a "schoolyard spat" says Tesla chief's lawyers.</p>
+
+                        </div>
+
+                        <div>
+                            <span><p class="little-words"><img id="clock" src="clock.png">9 hours ago</p><a id="little-technology" href="https://www.bbc.com/news/technology">Technology</a></span>
+
+                            <hr id="aricle-hr">
+
+                        </div>
+
+                        <div class="musk-links">
+
+                            <p><a class="musk-links" href="https://www.bbc.com/news/technology-46507964">Elon Musk has 'no respect' for US regulator</a></p>
+
+                            <p><a class="musk-links" href="https://www.bbc.com/news/world-asia-44870303">Musk apology to diver for Twitter attack</a></p>
+
+                            <p><a class="musk-links" href="https://www.bbc.com/news/world-us-canada-45418245">New Elon Musk rant at Thai cave resuer</a></p>
+                                
+                        </div>  
+
+                        <br>
+                        <hr width="590">
+
+                    </div> 
+
+                        <a href="https://www.bbc.com/news/technology-46693736"><img id=muskpng src="elon.png"></a>
+
+                </div>  
+            </div>
+            
+            <div class="clear"></div>
+            
+            <div id="advertisement container">
+                
+
+            
+            
+            
+            
+            
+            
+            </div>
+       </div> 
     </body>
     
 </html>
