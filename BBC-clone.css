@@ -1,0 +1,349 @@
+
+
+
+* {
+                padding:0;
+                margin:0;
+            }
+         
+           body {          
+                font-family: Arial, Helvetica, sans-serif;
+                margin:auto;
+            }
+            
+            #topbar {  
+                width: 1000px;
+                margin: 0 auto;
+                height: 40px;
+                background-color: white;
+            }
+            
+            #logo {
+                margin-top: 8px;
+                width: 80px;
+                float: left;
+                margin-right: 7px;
+            }
+            
+            .topbar-section {         
+                border-left: 1px solid #CCCCCC;
+                height: 100%;     
+                float: left;
+            }
+            
+            #signin-image {               
+                width: 30 px;
+                margin: 8px 7px;
+                float: left;
+            }
+            
+            #signin-text {              
+                font-weight: bold;
+                font-size: 75%;
+                position: relative;
+                top: 14px;
+                padding-right: 80px; 
+                float: left;
+            }
+            
+            .topbar-menu {              
+                font-weight: bold;
+                font-size: 75%;
+                padding: 13px 15px 7px 15px;
+                height: 20px;
+                float: left;
+            }
+            
+            #down-arrow {
+                width: 8px;
+                padding: 0px 5px 0px 55px;
+            }
+            
+            #topbar a {  
+                color: black;
+                text-decoration: none;
+            }
+           
+            .dropbtn {            
+                background-color: white;
+                cursor: pointer;
+                padding-right: 20px;          
+            }
+            
+            .dropbtn:hover {           
+               border-bottom: solid 5px black;       
+            }
+            
+            .dropdown {
+                position: relative;
+                display: inline-block;               
+            }
+            
+            .dropdown-content {           
+                display: none;
+                position: relative;
+                background-color: white;
+                width: 1000px;
+                height: 125px;
+                z-index: 1;               
+            }
+            
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            
+            .dropdown:hover .dropdown-content {
+                display: block;  
+                position: relative;
+            }
+            
+            .more-menu {
+                width: 1000px;
+                height: 100px;                    
+            }
+            
+            #search-box {
+                background-color: #E4E4E4;
+                border: none;
+                height: 17px;
+                font-weight: bold;
+                font-size: 14px;
+                padding-right: 0px;
+                float: left;
+            }
+            
+            #search-icon {
+                width: 17px;
+                border: none;
+                padding-left: 0px;
+                float: left;
+                cursor: pointer; 
+            }
+            
+            .news-container {
+                background-color: #BB1919;
+                width: 100%; 
+                border-top: 1px solid #CCCCCC;
+            }
+            
+            .news-section {
+                height: 70px;
+                width: 1000px;
+                margin: 0 auto; 
+            }
+            
+            .clear {
+                clear: both;
+            }
+            
+            #news {
+                color: white;
+                font-size: 50px;
+                padding: 8px 0px;  
+            }
+            
+            #newsbar-container {
+                background-color: #A91717;
+                width: 100%;
+            }
+            
+            .newsbar-section {
+                width: 1000px;
+                margin: 0 auto; 
+                height: 40px;
+            }     
+            
+            .newsbar-section a {  
+                color: white;
+                text-decoration: none;
+                font-size: 90%;
+                color: white;
+                float: left;
+                border-right: 1px solid #BB4545;
+                position: relative;
+                top: 10px;
+                padding: 0px 10px;             
+            }
+            
+            .newsbar-section a:hover {
+                border-bottom: white solid 4px;
+            }
+            
+            .more2 {
+                float: left;
+                font-size: 85%;
+                position: relative;
+                top: 10px;
+                padding: 1px 10px;
+                color: white;
+            }
+            
+            #redarrow {
+                width: 13px;
+                float: right;
+                padding-left: 5px;
+            }
+            
+            .more2:hover {
+                background-color: black;
+            }
+            
+            #main-page {
+                width: 1000px;
+                margin: 0 auto;
+            }
+            
+            #main-article {
+                width: 600px;
+                float: left;
+            }
+            #technology-container {
+                height: 50px;
+            }
+            
+            #technology-title {
+                width: 88px;
+                float: left;
+                color: #3e4444;
+                border-bottom: solid 4px #BB1919;
+                padding-top: 10px;
+                font-size: 110%;  
+            }
+            
+            .tech-section-container {
+                height: 40px;
+                background-color: white;
+            }
+            
+            h1 a {
+                text-decoration: none;
+                color: dimgrey;
+                font-size: 31px;
+            }
+            
+            h1 a:hover {
+                color: steelblue;
+                cursor: pointer; 
+            }
+            
+            .section1-text-container {
+                width: 220px;
+                background-color: white;
+                float: left
+            }
+            
+            #section1-text1 {
+                color: gray;
+                font-size: 13px; 
+                padding-top: 8px;
+            }
+            
+            .little-words {
+                color: #5a5a5a;
+                font-size: 12px; 
+                padding: 10px 6px 0px;
+                
+            }
+            
+            .little-technology {
+                color: #BB1919;
+                font-size: 12px;
+                border-left: 1px solid #EDEDED;
+                text-decoration: none;
+                padding-left: 6px;
+            }
+            
+            .little-technology:hover {
+                color: steelblue;
+            }
+            
+            #aricle-hr {              
+                width: 33px;
+                border-top: 1px solid #BB1919;
+                margin-top: 7px;
+            }
+            
+            p, a {
+                display: inline-block;
+            }
+            
+            .clock {
+                width: 11px;
+                padding-right: 4px;
+            }
+            
+            .musk-links {
+                font-size: 13px;  
+                text-decoration: none;
+                color: #5a5a5a;
+                padding-top: 7px;
+            }
+            
+            .musk-links:hover {
+                color: steelblue;
+            }
+            
+            #muskpng {
+                width: 360px;
+                padding: 10px;
+                float: left
+            }
+            
+            #advertisement-container {
+                float: left;
+                width: 400px;
+            }
+            
+            #advertisement {
+                margin: 70px 140px 20px;
+                font-size: 11px;
+                color: #5a5a5a;
+                font-weight: bold;
+            }
+            
+            #watch-listen {
+                border-left: 1px solid grey;
+                margin-left: 10px;
+                padding-left: 20px;
+                height: 270px;
+            }
+            
+            #watch-listen-text {
+                font-size: 22px;
+                color: #5a5a5a;
+            }
+            
+            .video-container {
+                margin-top: 10px;
+                padding-right: 5px;
+ 
+            }
+            
+            .video {
+                width: 55%;
+            }
+            
+            .video-title {
+                float: left;
+            }
+            
+            .caption-text-container {
+                float: left;
+                width: 160px;
+                position: relative;
+                right: 80px;
+                margin-bottom: 15px;
+            }
+            
+            .caption-text {
+                font-weight: bold;
+                font-size: 90%;
+            }
+            
+            .caption-text:hover {
+                color:steelblue;
+                cursor: pointer;
+            }
